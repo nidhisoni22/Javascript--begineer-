@@ -22,20 +22,36 @@ examples of SYMBOL
 // const Id1=Symbol("123")
 // console.log(Id === Id1); // returns false
 
-const heros=["ironman","shaktiman"]; // array
- const score = undefined;
-let obj ={        //object
-    name:"nidhi",
-    age : "22",
+// const heros=["ironman","shaktiman"]; // array
+//  const score = undefined;
+// let obj ={        //object
+//     name:"nidhi",
+//     age : "22",
 
- }
- const myfunc=function demo() {
-    console.log("hello world");
+//  }
+//  const myfunc=function demo() {
+//     console.log("hello world");
     
- }
+//  }
 
- // typeof Function
+//  // typeof Function
    
- console.log(typeof score);
+//  console.log(typeof score);
  
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// stack-stores all the primitive datatypes variables
+//and heap -stores all the data of the non-primitive datatypes
+let myname="nidhisoni;"
+let newname=myname;
+newname="NIDHI";
+// console.log(newname);
+// console.log(myname);
 
+let userOne={
+   email:"user@gmail.com",
+   upi:"user@ybl"
+};
+let userTwo=userOne;
+userTwo.email="nidhi@yahoo.com";
+console.log(userOne.email);
+console.log(userTwo.email);
