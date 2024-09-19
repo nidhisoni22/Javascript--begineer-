@@ -31,5 +31,5 @@ user.greeting1=function(){
     console.log(`hello ${this.myname}`)
 }
 
-console.log(user.greeting()); // try it without the braces 
+console.log(user.greeting()); // try it without the ()
 console.log(user.greeting1());
