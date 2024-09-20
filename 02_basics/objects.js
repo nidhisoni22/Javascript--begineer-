@@ -33,3 +33,4 @@ user.greeting1=function(){
 
 console.log(user.greeting()); // try it without the ()
 console.log(user.greeting1());
+
