@@ -1,0 +1,25 @@
+// Functions
+
+
+// function add2num(num1,num2){  // these are parameters
+//     console.log(num1+num2)
+// }
+// add2num(3,4) //these arguments
+
+//another way
+function mul(n1,n2){
+    return n1*n2;
+
+}
+const result=mul(2,3)
+console.log("Result :" , result)
+//1
+console.log(mul(2,5))
+//2
+ 
+function loggedIn(username){
+    if(username === undefined){
+        console.log("Please enter a username")
+    }
+    return `${username}   just logged in`;
+}
