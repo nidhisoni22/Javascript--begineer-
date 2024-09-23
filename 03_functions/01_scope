@@ -1,0 +1,52 @@
+// //SCOPE
+// var c=200 //global scope
+// if(true){
+//     let a=10  
+//     const b=20  //block scope
+//     //c=30
+// }
+
+// console.log(c)
+ //***************************************************************************************************************** */
+// //nested scope or closure
+// function  one(){
+//     const username ="hitesh"
+   
+   
+//      function two(){
+//         const website="youtube"
+//         console.log(username);
+        
+
+//     }
+//     //console.log(website);
+//     two();
+// }
+// one()
+
+// if(true){
+//     const username="hitesh"
+//     if(username == "hitesh"){
+//       const website = " youtube"
+//       console.log(username + website);
+
+//     }
+//     console.log(website) //-->wont be accessed out of the block
+// }
+// console.log(username) // -->wont be accessible out of block 
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++interseting+++++++++++++++++++++++++++++++++++++++++++++++++++++
+//HOISTING
+// way-1 of writing a function
+console.log(addone(5))
+function addone(num){
+    return num + 1
+}
+
+
+//way-2 of writing a function
+ 
+addTWo(5)
+const addTWo =function(num){
+  return num +2
+}
