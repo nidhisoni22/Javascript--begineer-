@@ -21,7 +21,7 @@ const chai = () => {
 chai() //you cant access this keyword inside an ARROW Function
  
 // Arrow function Basic functin
-
+// explict return 
 // const addtwo=(num1,num2) => {
 //     return num1 + num2
 // }
@@ -29,4 +29,8 @@ chai() //you cant access this keyword inside an ARROW Function
 
 
 //implict return
-const addtwo=
+const addtwo= (num1,num2) => addtwo(num1 +num2) // without return keyword 
+
+//object
+const addTwo=(num1,num2) => ({username:"hitesh"})  //object 
+console.log(addtwo(3,4)) 
