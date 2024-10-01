@@ -3,7 +3,7 @@ const user={
     username:"hitesh",
     price:599,
      welcomeMessage:function(){ 
-        //console.log(`${this.username},Welcome to website`)          //this keyword -->helps u get referene of your object
+        //console.log(`${this.username},Welcome to website`)          //this keyword -->helps u get reference of your object
 
 
     }
@@ -11,7 +11,7 @@ const user={
 }
 // user.welcomeMessage()
 // user.username="Nidhi"
-// user.welcomeMessage()
+// user.welcomeMessage()    
 //************************************************************************************************************************** */
 //Arrow function
 const chai = () => {
@@ -29,8 +29,8 @@ chai() //you cant access this keyword inside an ARROW Function
 
 
 //implict return
-const addtwo= (num1,num2) => addtwo(num1 +num2) // without return keyword 
+// const addtwo= (num1,num2) => addtwo(num1 +num2) // without return keyword 
 
 //object
 const addTwo=(num1,num2) => ({username:"hitesh"})  //object 
-console.log(addtwo(3,4)) 
+console.log(addTwo(3,4)) 
