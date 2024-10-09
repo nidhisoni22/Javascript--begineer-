@@ -26,23 +26,24 @@ coding.forEach((item,index,array) =>{
 })
 //----------------------------------------------------------------------------------------------------------------------
 // Array inside an object
-const myCoding=[
-    {
-    languageName:"Javascipt",
-    languageFilename:"js"
-    },
-    {
-        languageName:"Java",
-        languageFilename:"java"
+// const myCoding=[
+//     {
+//     languageName:"Javascipt",
+//     languageFilename:"js"
+//     },
+//     {
+//         languageName:"Java",
+//         languageFilename:"java"
     
-    },
-    {
-        languageName:"python",
-        languageFilename:"py"
+//     },
+//     {
+//         languageName:"python",
+//         languageFilename:"py"
     
-    },
+//     },
 
- ]
- myCoding.forEach((item) =>{
-    console.log(item.languageName)
- })
+//  ]
+//  myCoding.forEach((item) =>{
+//     console.log(item.languageName)
+//  })
+ 
