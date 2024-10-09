@@ -21,7 +21,18 @@ map.set("IN","india")
 // console.log(map) //-->it is a object 
 
 // If you want to get keys of the map 
-for(const [key] of map){
-    console.log(`value of the keys are(key ':-' value)`);
+for(const [key,value] of map){
+    console.log(key ,':-' ,value )
+    
+}
+// for of loop in object-->do not work for objects
+
+const myobject={
+    'game1':'Shoot game',
+    'game':'Spiderman'
+
+}
+for(const game of myobject){
+    console.log(key ,':-' ,value);
     
 }
