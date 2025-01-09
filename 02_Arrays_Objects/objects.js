@@ -1,12 +1,15 @@
-// obejct literal
+//Objects are created in two ways 
+//1. singleton- object.create
+
 
 //symbol
-const mysymbol=Symbol("123")
+const mysymbol=Symbol("123") // how to use a symbol in an object 
 
+//2. object literal
 
 const user ={
     "Userno":"1",
-    [mysymbol]:"123",
+    [mysymbol]:"123",  //this how the symbol is used in the object [mysymbol ] 
     myname:"Nidhi",
     age:22,
     location:"Bangalore"

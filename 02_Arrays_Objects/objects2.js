@@ -57,7 +57,12 @@ const course={
 
 }
 const{courseInstrctor} = course
-console.log(courseInstrctor);
+console.log(courseInstrctor); // used in react -this is called object destructuring 
  
 //API
-//it is in json file-where json is also a a object
+//it is in json file-where json is also a a object 
+//this what a json looks like {
+//     user:"abs",
+//     course:"js",
+//     price: "free of cost"
+// //}

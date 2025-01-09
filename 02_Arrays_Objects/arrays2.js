@@ -15,7 +15,7 @@ const memt=[...herione,...heros];
 
 // anotheer function===> Flat()
 const arrr=[1,2,3,[4,5,6],[9,7,8]];  //it puts all the elements in one new single array
-// console.log(arrr.flat(Infinity));  // ----->Infinity is the depth of the array
+// console.log(arrr.flat(Infinity));  //                ----->Infinity is the depth of the array
 
 // to check if the given input is array or not 
 // console.log(Array.isArray([1,23,45,89]));            //--->returns true
@@ -23,10 +23,10 @@ const arrr=[1,2,3,[4,5,6],[9,7,8]];  //it puts all the elements in one new singl
 //console.log(Array.from("nidhi"));             // -->converst string to array
 
 //interview 
-//console.log(Array.from({name:"nidhi"})) // -->object cant be converted 
+//console.log(Array.from({name:"nidhi"})) //  -->object cant be converted ,you have specify what is to be converted to array
 
 
 let score = 100
 let score1=200
 let score3 =300
-console.log(Array.of(score,score1,score3))
+console.log(Array.of(score,score1,score3)) //returns an array of the variables
