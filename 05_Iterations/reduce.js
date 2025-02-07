@@ -33,5 +33,6 @@ const shoppingCart=[
 //to add a functionality to add all the prices of the courses
 const reveal = shoppingCart.reduce( (acc,item) => acc+item.price,0
 
-)
+)    // acc is -0 as the initial value ,
+     //currvalue -item.rice/item 
 console.log(reveal);
