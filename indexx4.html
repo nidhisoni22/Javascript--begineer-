@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>            // edit or remove dom element
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Or Code  | DOM</title>
+</head>
+<body style="background-color: black;color: azure;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    function addLang(langName){
+     const li=  document.createElement('li')
+     li.innerHTML=`${langName}`
+     document.querySelector('.language').appendChild(li)
+    }
+    addLang("Python")
+    addLang("C + +")
+
+// optimised way on insertin a element
+
+    function addOptimisedLang(langName){
+     const li=  document.createElement('li')
+     li.appendChild(document.createTextNode(langName))
+     document.querySelector('.language').appendChild(li)
+    }
+
+    addOptimisedLang("GoLang")
+   
+    // A.edit the value in the list
+    
+    const edit =document.querySelector("li:nth-child(2)")
+
+    //edit.innerHTML="MOJO"  again innerhtml is not the optimised way to do this
+
+    const newli   = document.createElement('li')
+    newli.textContent="mojo"
+    edit.replaceWith(newli)
+
+    //edit
+    const firstlang=document.querySelector("li:first-child")
+    firstlang.outerHTML='<li>Typescript</li>'
+
+    //remove
+    const lastlang=document.querySelector('li:last-child')
+    lastlang.remove()
+</script>
+</html>
